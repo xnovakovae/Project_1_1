@@ -4,12 +4,10 @@ projekt_1.py: Opravena verze - první projekt do Engeto Online Python Akademie
 author: Eva Novakova
 email: xnovakovae@seznam.cz
 """
-
 from collections import Counter
 import re
 
 # Funkce pro načítání textů
-
 def load_texts():
     return [
         """Situated about 10 miles west of Kemmerer,
@@ -39,7 +37,7 @@ def load_texts():
         garpike and stingray are also present."""
     ]
 
-# Funkce pro autentizaci uživatele
+# Funkce pro autorizaci uživatele
 def authenticate_user(users_passwords):
     user = input("Username: ")
     password = input("Password: ")
